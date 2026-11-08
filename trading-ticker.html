@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mein Trading Ticker</title>
+<style>
+  * { margin: 0; padding: 0; }
+  body {
+    background: #131722;
+    overflow: hidden;
+    width: 100%;
+  }
+  tv-ticker-tape {
+    display: block;
+    width: 100%;
+  }
+</style>
+<script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
+</head>
+<body>
+<tv-ticker-tape symbols="CMCMARKETS:GOLD,OANDA:XAUUSD,BITSTAMP:BTCUSD,THINKMARKETS:NAS100,GOMARKETS:DAX40,FX_IDC:EURUSD,CRYPTO:ETHUSD" hide-chart theme="dark"></tv-ticker-tape>
+</body>
+</html>
